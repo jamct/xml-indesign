@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root><Firma>Firma</Firma><Name><Vorname>Vorname</Vorname>   <Nachname>Nachname</Nachname></Name><Position>Position</Position><Adresse><Strasse>Straße</Strasse>  <PLZ>PLZ</PLZ> <Ort>Ort</Ort></Adresse><Kontakt>Tel	<Telefon>Telefon</Telefon> Mail 	<Mail>Mail</Mail> </Kontakt></Root>

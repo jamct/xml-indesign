@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root><lead_image href="file://./$lead_image.source$"></lead_image><article><teaser>$teaser$</teaser> <author>Von $author$</author>
+$body$ <editor>($editor$)</editor></article><meta><title>$title$</title><subtitle>$subtitle$</subtitle><category>$category$</category><edition>Ausgabe $edition$</edition><magazine>$magazine_title$</magazine><category>$category$</category><startpage>122</startpage></meta>
+<images>
+$for(images)$
+<image><img href="file://./$images.source$"></img><img_caption>$images.caption$</img_caption></image>
+$endfor$
+</images>
+<boxes>
+$for(boxes)$
+<box> <box_text>$boxes.content$</box_text><box_title>$boxes.title$</box_title></box>
+$endfor$
+</boxes>
+<quotes>
+$for(quotes)$
+<quote><quotetext>$quotes.content$</quotetext><quotesource>$quotes.credits$</quotesource></quote>
+$endfor$
+</quotes>
+</Root>

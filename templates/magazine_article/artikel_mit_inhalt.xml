@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root><lead_image href="file://./placeholder3.jpg"></lead_image><article><teaser>Dies ist ein in Markdown geschriebener Artikel. Er wird von Pandoc konvertiert und als XML geladen.</teaser> <author>Von Klaus-Peter Mustermann</author>
+<p>Pandoc understands a number of useful markdown syntax extensions, including document metadata (title, author, date); footnotes; tables; definition lists; superscript and subscript; strikeout; enhanced ordered lists (start number and numbering style are significant); running example lists; delimited code blocks with syntax highlighting; smart quotes, dashes, and ellipses; markdown inside HTML blocks; and inline LaTeX. If strict markdown compatibility is desired, all of these extensions can be turned off.</p>
+<h3 id="pandoc">Pandoc</h3>
+<p>LaTeX math (and even macros) can be used in markdown documents. Several different methods of rendering math in HTML are provided, including MathJax and translation to MathML. LaTeX math is converted (as needed by the output format) to unicode, native Word equation objects, MathML, or roff eqn.</p>
+<p>Pandoc includes a powerful system for automatic citations and bibliographies, using pandoc-citeproc (which derives from Andrea Rossato’s citeproc-hs). This means that you can write a citation like Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library.</p>
+<p>Pandoc can convert between numerous markup and word processing formats, including, but not limited to, various flavors of Markdown, HTML, LaTeX and Word docx. For the full lists of input and output formats, see the –from and –to options below. Pandoc can also produce PDF output: see creating a PDF, below.</p>
+<p>Pandoc’s enhanced version of Markdown includes syntax for tables, definition lists, metadata blocks, footnotes, citations, math, and much more. See below under Pandoc’s Markdown.</p>
+<p>Pandoc has a modular design: it consists of a set of readers, which parse text in a given format and produce a native representation of the document (an abstract syntax tree or AST), and a set of writers, which convert this native representation into a target format. Thus, adding an input or output format requires only adding a reader or writer. Users can also run custom pandoc filters to modify the intermediate AST.</p>
+<h3 id="spannende-details">Spannende Details</h3>
+<p>LaTeX math (and even macros) can be used in markdown documents. Several different methods of rendering math in HTML are provided, including MathJax and translation to MathML. LaTeX math is converted (as needed by the output format) to unicode, native Word equation objects, MathML, or roff eqn.</p>
+<p>Pandoc includes a powerful system for automatic citations and bibliographies, using pandoc-citeproc (which derives from Andrea Rossato’s citeproc-hs). This means that you can write a citation like</p>
+<h3 id="noch-mehr-details">Noch mehr Details</h3>
+<p>LaTeX math (and even macros) can be used in markdown documents. Several different methods of rendering math in HTML are provided, including MathJax and translation to MathML. LaTeX math is converted (as needed by the output format) to unicode, native Word equation objects, MathML, or roff eqn.</p>
+<p>Pandoc includes a powerful system for automatic citations and bibliographies, using pandoc-citeproc (which derives from Andrea Rossato’s citeproc-hs). This means that you can write a citation like</p> <editor>(kmu)</editor></article><meta><title>Großer Titel</title><subtitle>Das ist eine Unterüberschrift</subtitle><category>Technik</category><edition>Ausgabe 01/2019</edition><magazine>InDesign-Beispielheft</magazine><category>Technik</category><startpage>122</startpage></meta>
+<images>
+<image><img href="file://./placeholder2.jpg"></img><img_caption>Sie sehen eine Wand, die als Platzhalter dient.</img_caption></image>
+<image><img href="file://./placeholder1.jpg"></img><img_caption>Eine weitere Wand, die nur den Platz freihält.</img_caption></image>
+</images>
+<boxes>
+<box> <box_text>Pandoc can convert between numerous markup and word processing formats, including, but not limited to, various flavors of Markdown, HTML, LaTeX and Word docx. For the full lists of input and output formats, see the –from and –to options below. Pandoc can also produce PDF output: see creating a PDF, below.</box_text><box_title>Wichtig zu wissen</box_title></box>
+</boxes>
+<quotes>
+<quote><quotetext>Es ist was faul im Staate Dänemark</quotetext><quotesource>Hamlett</quotesource></quote>
+</quotes>
+</Root>
